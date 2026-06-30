@@ -109,13 +109,7 @@ HERO
     padding:140px 8% 60px;
 
     background:
-    linear-gradient(rgba(4,10,20,.75),
-    rgba(4,10,20,.90)),
-    url("images/hero.jpg");
-
-    background-size:cover;
-
-    background-position:center;
+    radial-gradient(circle at top,#12395f 0%,#081523 45%,#03070d 100%);
 
 }
 
