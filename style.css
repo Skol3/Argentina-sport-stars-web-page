@@ -148,3 +148,62 @@ HERO
     gap:20px;
 
 }
+/* ===========================
+STATISTICS
+=========================== */
+
+.stats{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+
+    gap:30px;
+
+    padding:80px 8%;
+
+    background:#081523;
+
+}
+
+.stat-box{
+
+    background:#102235;
+
+    border:1px solid rgba(255,255,255,.08);
+
+    border-radius:20px;
+
+    padding:40px;
+
+    text-align:center;
+
+    transition:.35s;
+
+}
+
+.stat-box:hover{
+
+    transform:translateY(-10px);
+
+    box-shadow:0 0 35px rgba(0,180,255,.45);
+
+}
+
+.stat-box h2{
+
+    font-size:54px;
+
+    color:#45d0ff;
+
+    margin-bottom:15px;
+
+}
+
+.stat-box p{
+
+    color:#d6d6d6;
+
+    font-size:18px;
+
+}
