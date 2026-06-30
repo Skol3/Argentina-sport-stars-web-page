@@ -1,2 +1,2 @@
-# Argentina-sport-stars-web-page
-Argentina sport stars
+# Argentina-sports-stars-web-page
+Argentina Sports Stars
