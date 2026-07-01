@@ -388,3 +388,75 @@ display:none;
     font-size:18px;
 
 }
+
+/* ===========================
+   ABOUT
+=========================== */
+
+.about{
+
+    padding:120px 0;
+
+    background:#06111D;
+
+}
+
+.about-grid{
+
+    display:grid;
+
+    grid-template-columns:1fr 1fr;
+
+    gap:70px;
+
+    align-items:center;
+
+}
+
+.about-image img{
+
+    width:100%;
+
+    border-radius:25px;
+
+    box-shadow:0 0 40px rgba(46,184,255,.15);
+
+}
+
+.about-content h2{
+
+    font-size:54px;
+
+    margin:20px 0;
+
+    line-height:1.2;
+
+}
+
+.about-content p{
+
+    color:#c8d2dd;
+
+    line-height:1.9;
+
+    margin-bottom:25px;
+
+    font-size:18px;
+
+}
+
+@media(max-width:950px){
+
+.about-grid{
+
+grid-template-columns:1fr;
+
+}
+
+.about-content{
+
+text-align:center;
+
+}
+
+}
