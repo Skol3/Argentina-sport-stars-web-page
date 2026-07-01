@@ -4,23 +4,26 @@
 <head>
 
 <meta charset="UTF-8">
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <title>Argentina Sports Stars</title>
 
-<link rel="stylesheet" href="style.css">
-
 <link rel="preconnect" href="https://fonts.googleapis.com">
+
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 
+<link rel="stylesheet" href="style.css">
+
+<script src="script.js" defer></script>
+
 </head>
 
 <body>
-  <div class="hero-background"></div>
 
-<header>
+<header class="header">
 
 <div class="container">
 
@@ -30,64 +33,77 @@
 
 </a>
 
-<nav>
+<nav class="navbar">
 
 <ul>
 
-<li><a href="#">Home</a></li>
+<li><a href="#home">Home</a></li>
 
-<li><a href="#">Agency</a></li>
+<li><a href="#agency">Agency</a></li>
 
-<li><a href="#">Players</a></li>
+<li><a href="#players">Players</a></li>
 
-<li><a href="#">Services</a></li>
+<li><a href="#services">Services</a></li>
 
-<li><a href="#">News</a></li>
+<li><a href="#news">News</a></li>
 
-<li><a href="#">Contact</a></li>
+<li><a href="#contact">Contact</a></li>
 
 </ul>
 
 </nav>
 
+<a href="#" class="header-button">
+
+Get in Touch
+
+</a>
+
 </div>
 
 </header>
 
-<section class="hero">
+<main>
 
-<div class="container hero-content">
+  <section class="hero" id="home">
 
-<div class="hero-left">
+<div class="container hero-grid">
 
-<span class="subtitle">
+<div class="hero-text">
+
+<div class="hero-tag">
 
 Professional Football Agency
 
-</span>
+</div>
 
 <h1>
 
 Argentina<br>
+
 Sports Stars
 
 </h1>
 
 <p>
 
-Talent Development • Representation • International Transfers
+Talent Development
+
+Representation
+
+International Transfers
 
 </p>
 
-<div class="buttons">
+<div class="hero-buttons">
 
-<a href="#" class="btn">
+<a href="#players" class="btn">
 
 Our Players
 
 </a>
 
-<a href="#" class="btn btn-outline">
+<a href="#contact" class="btn-outline">
 
 Contact
 
@@ -97,11 +113,9 @@ Contact
 
 </div>
 
-<div class="hero-right">
-    <img src="images/hero-player.png" alt="Football Player">
-</div>
+<div class="hero-image">
 
-<img src="images/hero-player.png" alt="Football Player">
+<img src="images/hero-player.png">
 
 </div>
 
@@ -109,181 +123,42 @@ Contact
 
 </section>
 
-  <!-- Featured Players -->
+  <section class="statistics">
 
-<section class="players" id="players">
+<div class="container stats-grid">
 
-    <div class="container">
+<div>
 
-        <h2 class="section-title">Featured Players</h2>
+<h2>120+</h2>
 
-        <p class="section-text">
-            Meet some of the talented footballers represented by Argentina Sports Stars.
-        </p>
+<p>Players</p>
 
-        <div class="players-grid">
+</div>
 
-            <div class="player-card">
+<div>
 
-                <img src="images/players/player1.jpg" alt="Player">
+<h2>48</h2>
 
-                <div class="player-info">
+<p>Professional Clubs</p>
 
-                    <h3>Lionel Messi</h3>
+</div>
 
-                    <span>Forward</span>
+<div>
 
-                </div>
+<h2>18</h2>
 
-            </div>
+<p>Countries</p>
 
-            <div class="player-card">
+</div>
 
-                <img src="images/players/player2.jpg" alt="Player">
+<div>
 
-                <div class="player-info">
+<h2>300+</h2>
 
-                    <h3>Future Star</h3>
+<p>Transfers</p>
 
-                    <span>Midfielder</span>
+</div>
 
-                </div>
-
-            </div>
-
-            <div class="player-card">
-
-                <img src="images/players/player3.jpg" alt="Player">
-
-                <div class="player-info">
-
-                    <h3>Future Star</h3>
-
-                    <span>Defender</span>
-
-                </div>
-
-            </div>
-
-        </div>
-
-    </div>
+</div>
 
 </section>
-
-  <!-- ABOUT -->
-
-<section class="about" id="agency">
-
-    <div class="container about-grid">
-
-        <div class="about-image">
-
-            <img src="images/about.jpg" alt="Argentina Sports Stars">
-
-        </div>
-
-        <div class="about-content">
-
-            <span class="subtitle">
-                About Us
-            </span>
-
-            <h2>
-                Building Careers.<br>
-                Creating Opportunities.
-            </h2>
-
-            <p>
-                Argentina Sports Stars is a football agency dedicated to discovering,
-                developing and representing talented players. We work closely with clubs,
-                scouts and partners to help athletes reach the highest level of professional football.
-            </p>
-
-            <p>
-                Our mission is to guide every player through every stage of their career —
-                from youth development to international transfers.
-            </p>
-
-            <a href="#" class="btn">
-                Learn More
-            </a>
-
-        </div>
-
-    </div>
-
-</section>
-
-  <!-- SERVICES -->
-
-<section class="services" id="services">
-
-    <div class="container">
-
-        <span class="subtitle">
-            Our Services
-        </span>
-
-        <h2 class="section-title">
-            What We Do
-        </h2>
-
-        <div class="services-grid">
-
-            <div class="service-card">
-
-                <div class="icon">⚽</div>
-
-                <h3>Player Representation</h3>
-
-                <p>
-                    Professional career management and contract negotiations.
-                </p>
-
-            </div>
-
-            <div class="service-card">
-
-                <div class="icon">🔍</div>
-
-                <h3>Scouting</h3>
-
-                <p>
-                    Discovering talented young footballers with high potential.
-                </p>
-
-            </div>
-
-            <div class="service-card">
-
-                <div class="icon">🌍</div>
-
-                <h3>International Transfers</h3>
-
-                <p>
-                    Connecting players with clubs around the world.
-                </p>
-
-            </div>
-
-            <div class="service-card">
-
-                <div class="icon">📈</div>
-
-                <h3>Career Development</h3>
-
-                <p>
-                    Building long-term professional careers for every athlete.
-                </p>
-
-            </div>
-
-        </div>
-
-    </div>
-
-</section>
-</body>
-
-</html>
