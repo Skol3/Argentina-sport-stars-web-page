@@ -24,6 +24,20 @@ body{
 
 }
 
+.hero-background{
+    position:fixed;
+    inset:0;
+    background:url("images/stadium-bg.jpg") center center/cover no-repeat;
+    z-index:-2;
+}
+
+.hero-background::after{
+    content:"";
+    position:absolute;
+    inset:0;
+    background:rgba(6,17,29,.75);
+}
+
 /* ===========================
 CONTAINER
 =========================== */
