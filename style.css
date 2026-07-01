@@ -607,3 +607,91 @@ grid-template-columns:1fr;
 
 }
 
+/* =====================================
+   FEATURED PLAYERS
+===================================== */
+
+.featured{
+
+    padding:120px 0;
+
+}
+
+.players-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(330px,1fr));
+
+    gap:35px;
+
+}
+
+.player-card{
+
+    background:var(--card);
+
+    border-radius:24px;
+
+    overflow:hidden;
+
+    transition:.35s;
+
+}
+
+.player-card:hover{
+
+    transform:translateY(-12px);
+
+    box-shadow:0 20px 45px rgba(46,184,255,.25);
+
+}
+
+.player-card img{
+
+    width:100%;
+
+    height:420px;
+
+    object-fit:cover;
+
+}
+
+.player-content{
+
+    padding:30px;
+
+}
+
+.player-content h3{
+
+    font-size:30px;
+
+    margin-bottom:8px;
+
+}
+
+.position{
+
+    color:var(--blue);
+
+    margin-bottom:20px;
+
+    font-weight:600;
+
+}
+
+.player-content ul{
+
+    margin-bottom:30px;
+
+}
+
+.player-content li{
+
+    color:var(--text);
+
+    margin-bottom:10px;
+
+}
+
