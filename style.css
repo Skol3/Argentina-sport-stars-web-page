@@ -460,3 +460,74 @@ text-align:center;
 }
 
 }
+/* ===========================
+   SERVICES
+=========================== */
+
+.services{
+
+    padding:120px 0;
+
+    background:#081523;
+
+}
+
+.services-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+
+    gap:35px;
+
+    margin-top:60px;
+
+}
+
+.service-card{
+
+    background:#102235;
+
+    padding:40px;
+
+    border-radius:20px;
+
+    text-align:center;
+
+    transition:.35s;
+
+    border:1px solid rgba(255,255,255,.05);
+
+}
+
+.service-card:hover{
+
+    transform:translateY(-10px);
+
+    box-shadow:0 0 35px rgba(46,184,255,.25);
+
+}
+
+.icon{
+
+    font-size:52px;
+
+    margin-bottom:25px;
+
+}
+
+.service-card h3{
+
+    font-size:24px;
+
+    margin-bottom:18px;
+
+}
+
+.service-card p{
+
+    color:#b9c7d6;
+
+    line-height:1.7;
+
+}
